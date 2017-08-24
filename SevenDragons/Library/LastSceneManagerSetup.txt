@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SceneSevenDragons.unity
+- path: Assets/Scenes/Barra inferiro.unity
   isLoaded: 1
   isActive: 1
