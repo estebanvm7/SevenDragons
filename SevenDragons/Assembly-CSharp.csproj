@@ -54,6 +54,7 @@
      <Compile Include="Assets\Clases\AreaDeJuego.cs" />
      <Compile Include="Assets\Clases\Carta.cs" />
      <Compile Include="Assets\Clases\Desplazable.cs" />
+     <Compile Include="Assets\Clases\DropZone.cs" />
      <Compile Include="Assets\Clases\ManoJugador.cs" />
      <Compile Include="Assets\Clases\Mazo.cs" />
  <Reference Include="UnityEngine.Analytics">
