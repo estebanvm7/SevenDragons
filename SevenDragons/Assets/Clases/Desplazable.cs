@@ -11,7 +11,7 @@ public class Desplazable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 		//Debug.Log ("OnBeginDrag");
 
 		parentToReturnTo = this.transform.parent;   
-		this.transform.SetParent (this.transform.parent.parent);
+		this.transform.SetParent (this.transform.parent.parent); 
 
 		GetComponent<CanvasGroup> ().blocksRaycasts = false;
 	}
@@ -20,6 +20,10 @@ public class Desplazable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 		//Debug.Log ("OnDrag");
 
 		this.transform.position = eventData.position;
+
+		//Buscar las zonas permitidas dependiendo del objeto
+		//DropZone zones = GameObject.FindObjectOfType<DropZone> ();
+
 	}
 
 	public void OnEndDrag (PointerEventData eventData) {

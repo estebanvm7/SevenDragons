@@ -57,6 +57,7 @@
      <Compile Include="Assets\Clases\DropZone.cs" />
      <Compile Include="Assets\Clases\ManoJugador.cs" />
      <Compile Include="Assets\Clases\Mazo.cs" />
+     <Compile Include="Assets\Clases\Panel.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
