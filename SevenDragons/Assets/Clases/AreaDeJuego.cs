@@ -44,6 +44,7 @@ public class AreaDeJuego : MonoBehaviour {
 		generarPanel (50, 51);
 		//generarCarta (52, 51);
 		generarPanel (52, 51);
+		generarPanel (50, 50);
 		//
 		//
 		// generarCarta(50,51);
@@ -60,7 +61,7 @@ public class AreaDeJuego : MonoBehaviour {
 	
 	//private Vector3 offsetCarta = new Vector3(2.0f, 0.00f, 2.0f);
 	private Carta[,] areaDeJuego = new Carta[103, 103];
-	private Vector3 offsetTablero = new Vector3 (-5100.0f, -7575.0f, 0.0f);
+	private Vector3 offsetTablero = new Vector3 (-5100.0f, 7725.0f, 0.0f);
 	public GameObject carta;
 	public GameObject panel;
 	
@@ -87,7 +88,7 @@ public class AreaDeJuego : MonoBehaviour {
 	}
 
 	private void reposicionarObjeto (Panel obj, int x, int y) {
-		obj.transform.position = (Vector3.right * x * 100) + (Vector3.up * y * 150) + offsetTablero;// + offsetTablero;
+		obj.transform.position = (Vector3.right * x * 100) + (Vector3.up * -y * 150) + offsetTablero;// + offsetTablero;
 	}
 	
 
