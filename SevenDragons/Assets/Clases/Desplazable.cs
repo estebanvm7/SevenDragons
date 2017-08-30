@@ -17,9 +17,12 @@ public class Desplazable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 	}
 
 	public void OnDrag (PointerEventData eventData) {
-		//Debug.Log ("OnDrag");
 
-		this.transform.position = eventData.position;
+		Vector3 posicionMouse = Input.mousePosition;	//Optiene la posición del mouse
+		posicionMouse.z = -2f;							//Cambia la ubicación en z
+
+		this.transform.position = Camera.main.ScreenToWorldPoint (posicionMouse); //actualiza la posición del objeto según la ubicación del mouse
+		//this.transform.SetParent ()
 
 		//Buscar las zonas permitidas dependiendo del objeto
 		//DropZone zones = GameObject.FindObjectOfType<DropZone> ();
@@ -27,7 +30,12 @@ public class Desplazable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 	}
 
 	public void OnEndDrag (PointerEventData eventData) {
-		//Debug.Log ("OnEndDrag");
+
+		Vector3 posicionMouse = Input.mousePosition;
+		posicionMouse.z = 0f;
+
+		this.transform.position = Camera.main.ScreenToWorldPoint (posicionMouse);
+
 		this.transform.SetParent (parentToReturnTo);
 		GetComponent<CanvasGroup> ().blocksRaycasts = true;
 	}
