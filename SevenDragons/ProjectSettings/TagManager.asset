@@ -3,7 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - image00
+  - image01
+  - image10
+  - image11
+  - ManoJugador
+  - Meta
+  - VistaAreaDeJuego
+  - VistaJugador
+  - VistaJuego
+  - CartaInicial
+  - Mazo
+  - "Men\xFA"
+  - arriba
+  - abajo
+  - izquierda
+  - derecha
+  - completa
   layers:
   - Default
   - TransparentFX

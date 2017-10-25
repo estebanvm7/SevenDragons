@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 960f2b6ab3cba40829a8f4eff1743a0c
+timeCreated: 1507962691
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Asparagus Sprouts
+  fontNames:
+  - Asparagus Sprouts
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
