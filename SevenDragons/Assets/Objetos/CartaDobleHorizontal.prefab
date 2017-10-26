@@ -60,7 +60,7 @@ GameObject:
   - component: {fileID: 225579145856880224}
   - component: {fileID: 114526978148912922}
   m_Layer: 5
-  m_Name: CartaDobleVertical
+  m_Name: CartaDobleHorizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

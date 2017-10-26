@@ -126,9 +126,9 @@ MonoBehaviour:
     type: 2}
   cartaCompleta: {fileID: 1146774787275556, guid: 3f7a330b7df19453b8f78547e7c2ad35,
     type: 2}
-  cartaDobleHorizontal: {fileID: 1010227618781666, guid: c8d79d9fc4249447ba473decbaa159af,
+  cartaDobleHorizontal: {fileID: 1651680739884646, guid: 57ac118073710421aad12900bd52a28a,
     type: 2}
-  cartaDobleVertical: {fileID: 1651680739884646, guid: 57ac118073710421aad12900bd52a28a,
+  cartaDobleVertical: {fileID: 1010227618781666, guid: c8d79d9fc4249447ba473decbaa159af,
     type: 2}
   cartaTrioArriba: {fileID: 1696526200685606, guid: 47a2f0db8940f4f32b133feb95b16805,
     type: 2}
