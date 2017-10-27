@@ -27,8 +27,8 @@ public class VistaAreaDeJuego : VistaJuego {
 //		//generarCarta (52, 51);
 //		generarPanel (52, 51);
 
-		for (int i = 49; i < 55; i++) {
-			for (int j = 45; j < 58; j++) {
+		for (int i = 45; i < 59; i++) {
+			for (int j = 40; j < 63; j++) {
 				if (i == 51 && j == 51) {
 				}
 				generarPanel (i,j);
@@ -51,7 +51,7 @@ public class VistaAreaDeJuego : VistaJuego {
 
 	}
 
-	private void generarCarta (int fila, int columna, Carta carta) {
+	public void generarCarta (int fila, int columna, Carta carta) {
 
 		//obtiene el objeto adecuado con rrespecto a los colores de la carta
 		GameObject go = generarGameObjetcCarta (carta);
