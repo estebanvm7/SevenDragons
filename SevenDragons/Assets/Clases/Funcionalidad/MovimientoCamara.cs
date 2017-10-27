@@ -6,11 +6,8 @@ public class MovimientoCamara : MonoBehaviour {
 
 	public GameObject vistaJugador;
 	public int velocidad;
-	//	private int limiteAriba;
-	//	private int limiteAbajo;
-	//	private int limiteDerecha = 100;
-	//	private int limiteIzquierda = 100;
-	//private float posicion;
+
+	private float posicion;
 
 	// Use this for initialization
 	void Start () {
@@ -25,44 +22,48 @@ public class MovimientoCamara : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.RightArrow) || (Input.mouseScrollDelta.x < 0)) {
 
-//			posicion = velocidad * Time.deltaTime;
-//
-//			posicion = Mathf.Clamp (posicion, limiteIzquierda, limiteDerecha);
+			if (vistaJugador.transform.position.x < 530) {
+				Vector3 vectorDerecha = new Vector3 (velocidad * Time.deltaTime, 0, 0);
 
-			//Vector3 vectorDerecha = new Vector3 ( posicion, 0, 0);
-
-
-			Vector3 vectorDerecha = new Vector3 (velocidad * Time.deltaTime, 0, 0);
-
-			transform.Translate (vectorDerecha);
-			vistaJugador.transform.Translate (vectorDerecha);
-
+				transform.Translate (vectorDerecha);
+				vistaJugador.transform.Translate (vectorDerecha);
+			}
+				
 		}
 
 		if (Input.GetKey (KeyCode.LeftArrow) || (Input.mouseScrollDelta.x > 0)) {
 
-			Vector3 vectorIzquierda = new Vector3 (-velocidad * Time.deltaTime, 0, 0);
+			if (vistaJugador.transform.position.x > -530) {
 
-			transform.Translate (vectorIzquierda);
-			vistaJugador.transform.Translate (vectorIzquierda);
+				Vector3 vectorIzquierda = new Vector3 (-velocidad * Time.deltaTime, 0, 0);
+
+				transform.Translate (vectorIzquierda);
+				vistaJugador.transform.Translate (vectorIzquierda);
+			}
 
 		}
 
 		if (Input.GetKey (KeyCode.UpArrow) || (Input.mouseScrollDelta.y > 0)) {
 
-			Vector3 vectorArriba = new Vector3 (0, velocidad * Time.deltaTime, 0);
+			if (vistaJugador.transform.position.y < 700) {
 
-			transform.Translate (vectorArriba);
-			vistaJugador.transform.Translate (vectorArriba);
+				Vector3 vectorArriba = new Vector3 (0, velocidad * Time.deltaTime, 0);
+
+				transform.Translate (vectorArriba);
+				vistaJugador.transform.Translate (vectorArriba);
+			}
 
 		}
 
 		if (Input.GetKey (KeyCode.DownArrow) || (Input.mouseScrollDelta.y < 0)) {
 
-			Vector3 vectorAbajo = new Vector3 (0, -velocidad * Time.deltaTime, 0);
+			if (vistaJugador.transform.position.y > -850) {
 
-			transform.Translate (vectorAbajo);
-			vistaJugador.transform.Translate (vectorAbajo);
+				Vector3 vectorAbajo = new Vector3 (0, -velocidad * Time.deltaTime, 0);
+
+				transform.Translate (vectorAbajo);
+				vistaJugador.transform.Translate (vectorAbajo);
+			}
 
 		}
 		
