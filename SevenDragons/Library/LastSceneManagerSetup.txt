@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Barra inferiro.unity
+- path: Assets/Scenes/PantallaJuego.unity
   isLoaded: 1
   isActive: 1
