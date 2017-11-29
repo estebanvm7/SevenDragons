@@ -199,13 +199,13 @@ MonoBehaviour:
     type: 2}
   cartaTrioIzquierda: {fileID: 1842601136635232, guid: 65553d3744ad04f03acf61a3df0e1c44,
     type: 2}
-  vistaJugador: {fileID: 1853381779186804, guid: 73c0c382c0b3a464d95a1160ea94d1f8,
+  vistaJugador: {fileID: 1779302306291680, guid: 593b3dd5f1e9f4fbeb54b1b9e4e0b99c,
     type: 2}
   vistaAreaDeJuego: {fileID: 1951613171913712, guid: 1758f97412d284949b836dbaefb35f50,
     type: 2}
   amarillo: {fileID: 2800000, guid: d79bf9fe549af452baebbf5d45cbf22a, type: 3}
   azul: {fileID: 2800000, guid: d50deb487124e4fce935717d8e4c8675, type: 3}
-  negro: {fileID: 2800000, guid: 70d1c605f7ba24dbbb2a68482de834ac, type: 3}
+  negro: {fileID: 2800000, guid: 93976a0f54c164fe7b9a623bbe4778a4, type: 3}
   rojo: {fileID: 2800000, guid: b2402bcedf76d4291802cb2a7e8f3712, type: 3}
   verde: {fileID: 2800000, guid: 945ffc2c3212c407081b3d1a2e5a62ea, type: 3}
   colores: {fileID: 2800000, guid: a089501151c144722a520ced74f990ba, type: 3}

@@ -1,13 +1,21 @@
 ﻿<Properties StartupConfiguration="{507C004A-0E44-F607-4E8D-6ACF50159F58}|Unit Tests" StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Clases/Principales/ManoJugador.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Clases/Vistas/VistaJuego.cs">
     <Files>
-      <File FileName="Assets/Clases/Principales/ManoJugador.cs" Line="3" Column="3" />
+      <File FileName="Assets/Clases/Vistas/VistaJuego.cs" Line="27" Column="3" />
+      <File FileName="Assets/Clases/Vistas/VistaAreaDeJuego.cs" Line="1" Column="1" />
+      <File FileName="Assets/Clases/Vistas/VistaJugador.cs" Line="46" Column="29" />
+      <File FileName="Assets/Clases/Funcionalidad/Desplazable.cs" Line="39" Column="40" />
+      <File FileName="Assets/Clases/Funcionalidad/DropZone.cs" Line="1" Column="1" />
+      <File FileName="Assets/Clases/Funcionalidad/MovimientoCamara.cs" Line="1" Column="1" />
+      <File FileName="Assets/Clases/Principales/Juego.cs" Line="1" Column="1" />
+      <File FileName="Assets/Clases/Principales/Validacion.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/Esteban/Documents/GitHub/SevenDragons/SevenDragons/Assets/Clases/AreaDeJuego.cs" line="13" column="1" />
+      <Breakpoint file="/Users/Esteban/Documents/GitHub/SevenDragons/SevenDragons/Assets/Clases/Principales/Validacion.cs" line="210" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

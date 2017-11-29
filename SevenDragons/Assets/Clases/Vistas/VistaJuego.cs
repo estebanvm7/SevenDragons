@@ -26,7 +26,7 @@ public class VistaJuego : MonoBehaviour{
 	void Start() {
 		generarVistaAreaDeJuego ();
 		generarVistaJugador ();
-		generarVistaJugador ();
+		//generarVistaJugador ();
 	}
 
 	private Texture obtenerTextura(int color) {
